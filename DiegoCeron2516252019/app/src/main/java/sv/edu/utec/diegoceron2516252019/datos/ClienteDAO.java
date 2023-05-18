@@ -31,7 +31,7 @@ public class ClienteDAO extends BaseHelper{
         }
         catch (Exception ex){
             ex.toString();
-            return codigo=1;
+            return codigo=0;
         }
 
     }
